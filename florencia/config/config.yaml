@@ -1,0 +1,25 @@
+# Florencia Configuration
+
+app:
+  name: "Florencia"
+  version: "0.1.0"
+  debug: true
+
+scraper:
+  timeout: 30
+  user_agent: "Mozilla/5.0 (compatible; FlorenceAttractionsBot/1.0)"
+  urls:
+    - "https://en.wikipedia.org/wiki/Florence_Cathedral"
+    - "https://en.wikipedia.org/wiki/Uffizi_Gallery"
+    - "https://en.wikipedia.org/wiki/Piazzale_Michelangelo"
+    - "https://en.wikipedia.org/wiki/Ponte_Vecchio"
+    - "https://en.wikipedia.org/wiki/Palazzo_Vecchio"
+    - "https://en.wikipedia.org/wiki/Basilica_di_San_Lorenzo"
+    - "https://en.wikipedia.org/wiki/Santa_Maria_Novella"
+    - "https://en.wikipedia.org/wiki/Bargello"
+    - "https://en.wikipedia.org/wiki/Giotto%27s_Bell_Tower"
+    - "https://en.wikipedia.org/wiki/Basilica_di_Santa_Croce,_Florence"
+
+html:
+  output_path: "data/results/florence_attractions.html"
+  title: "Top 10 Florence Attractions"

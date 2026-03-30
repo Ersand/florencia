@@ -1,0 +1,2 @@
+2026-03-30 15:22:47 - florencia.data.scraper - ERROR - Failed to fetch https://www.tripadvisor.com/Tourism-g187895-Florence_Tuscany-Vacations.html: 403 Client Error: Forbidden for url: https://www.tripadvisor.com/Tourism-g187895-Florence_Tuscany-Vacations.html
+2026-03-30 15:23:11 - florencia.data.scraper - ERROR - Failed to fetch https://en.wikipedia.org/wiki/Bargello_(Florence): 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Bargello_(Florence)
