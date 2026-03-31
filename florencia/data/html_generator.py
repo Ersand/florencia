@@ -226,7 +226,7 @@ class HTMLGenerator:
     <div class="container">
         <header>
             <h1>Florence Kimdrusk</h1>
-            <p>Discover the beauty of Renaissance art and architecture</p>
+            <p>Quim and Sandra discovering Renaissance art and architecture</p>
         </header>
 
         <div class="tabs">
