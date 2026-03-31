@@ -79,11 +79,8 @@ def scrape(
     console.print("[cyan]Generating HTML...[/cyan]")
     generator = HTMLGenerator()
     output_path = generator.generate(attractions, output)
-
-    console.print(f"[green]Done! Output saved to: {output_path}[/green]")
-
     docs_output = Path("docs/index.html")
-    shutil.copy(output_path, docs_output)
+    generator.generate(attractions, str(docs_output))
     console.print(f"[green]Copied to docs: {docs_output}[/green]")
 
     table = Table(title="Scraped Attractions")
