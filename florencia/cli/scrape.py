@@ -82,7 +82,7 @@ def scrape(
 
     console.print(f"[green]Done! Output saved to: {output_path}[/green]")
 
-    docs_output = Path("docs/florence.html")
+    docs_output = Path("docs/index.html")
     shutil.copy(output_path, docs_output)
     console.print(f"[green]Copied to docs: {docs_output}[/green]")
 
