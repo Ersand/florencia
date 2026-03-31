@@ -1,6 +1,7 @@
 """Scrape command for CLI."""
 
 from pathlib import Path
+import shutil
 from typing import Annotated
 
 import typer
@@ -80,6 +81,10 @@ def scrape(
     output_path = generator.generate(attractions, output)
 
     console.print(f"[green]Done! Output saved to: {output_path}[/green]")
+
+    docs_output = Path("docs/florence.html")
+    shutil.copy(output_path, docs_output)
+    console.print(f"[green]Copied to docs: {docs_output}[/green]")
 
     table = Table(title="Scraped Attractions")
     table.add_column("Rank", style="cyan")
